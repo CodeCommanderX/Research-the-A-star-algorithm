@@ -15,13 +15,14 @@ The A* algorithm is a combination of "UNIFORM COST SEARCH" and "BEST FIRST SEARC
 
 ### Example?
 
-STT	Nút được mở rộng	Tập biên O
+No.	Expandable node	O compilation set
 0		S(6)
 1	S	As(6),Bs(5)
 2	Bs	As(6),Cb(6)
 3	As	Cb(6),Da(8),Ga(7)
 4	Cb	Da(8),Ga(7)
-5	Ga	Đích
-![image](https://github.com/CodeCommanderX/Research-the-A-star-algorithm/assets/132070927/94a868ea-66d4-46c3-b02c-3fabc8302a21)
+5	Ga	destination
+![image](https://github.com/CodeCommanderX/Research-the-A-star-algorithm/assets/132070927/1fd47f23-937a-4c85-a191-d5ff8111cc71)
+
 
 SHORTEST path: G← A← S
